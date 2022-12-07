@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Caveat', cursive;
+    background: url(https://www.stylist.co.uk/images/app/uploads/2021/01/25162104/how-to-switch-off-from-work-when-working-from-home-crop-1611591729-1918x1278.jpg?w=1200&h=1&fit=max&auto=format%2Ccompress);
+    background-position: top center;
+    background-size: 90%;
+    color:rgb(116, 65, 41);
+}
+
+section {
+    background-color: bisque;
+    margin: 3rem auto;
+    width: 50vw;
+    border-radius: 3rem;
+    border: 3px solid saddlebrown;
+}
+
+div {
+    text-align: center;
+}
+
+h1, p {
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 4rem;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+li {
+    font-size: 2.3rem;
+    list-style-type: disc;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    
+}
+
+input {
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 1.2rem;
+    border: 3px solid saddlebrown;
+    width: 80%;
+}
+
+.btn-tarefa {
+    padding: 1rem;
+    width: 30%;
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: mistyrose;
+    color: rgb(116, 65, 41);
+    border: 2px solid saddlebrown;
+}
+
+.btn-tarefa:hover {
+    background-color:  rgb(116, 65, 41);
+    color: mistyrose;
+}
+
+.apagar {
+    padding: .5rem;
+    font-family: 'Caveat', cursive;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: mistyrose;
+    color: rgb(116, 65, 41);
+    border: 2px solid saddlebrown;
+}
+
+.apagar:hover {
+    background-color:  rgb(116, 65, 41);
+    color: mistyrose;
+}
+
+@media (max-width: 1000px) {
+    html {
+        font-size: 12px;
+    }
+    body {
+        background: mistyrose;
+    }
+    section {
+        margin: 1rem auto;
+        width: 80vw;
+    }
+    input {
+        font-size: 1.5rem;
+        padding: 1rem;
+        border-radius: 1.2rem;
+        border: 3px solid saddlebrown;
+        width: 100%;
+    }
+    .btn-tarefa {
+        padding: 1rem;
+        width: 60%;
+        font-family: 'Caveat', cursive;
+        font-size: 2rem;
+        cursor: pointer;
+        background-color: mistyrose;
+        color: rgb(116, 65, 41);
+        border: 2px solid saddlebrown;
+    }
+    
+}
