@@ -11,4 +11,5 @@ As tecnologias utilizadas foram:
 - CSS
 - JavaScript
 
-![image](https://user-images.githubusercontent.com/86682405/206477443-29134ab5-5f12-4e54-a794-06494b8eaf93.png)
+## 
+![image](https://user-images.githubusercontent.com/86682405/206477705-80ca102c-0df6-49ae-a51f-e2f49ded0aba.png)
